@@ -10,6 +10,8 @@ Config pour magimat class-guru:
 
 3. let's encrypt  (https://letsencrypt.org/getting-started/   https://certbot.eff.org/)
 
-4. ajout conf pour magimat.ca dans /etc/apache2/sites-enabled/  (fichier conf de ce repo)
+4. ajout mod_authnz_jwt (ma version patché pour supporter cookie si pas de header Authorization  https://github.com/magimat/mod_authnz_jwt)
 
-5. copy login.html dans /var/www/html
+5. ajout conf pour magimat.ca dans /etc/apache2/sites-enabled/  (fichier conf de ce repo)
+
+6. copy login.html dans /var/www/html
