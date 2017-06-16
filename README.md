@@ -15,3 +15,6 @@ Config pour magimat class-guru:
 5. ajout conf pour magimat.ca dans /etc/apache2/sites-enabled/  (fichier conf de ce repo)
 
 6. copy login.html dans /var/www/html
+
+7. création user dans fichier htpasswd (sudo htpasswd -c /var/www/jwt.htpasswd username)
+    -c la première fois pour créer le fichier, par la suite même chose sans le -c pour ajouter des ueser
